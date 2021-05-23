@@ -8,8 +8,8 @@ let fuelMassKg = 760000
 let shuttleMassKg = 74842.31
 let totalMassKg = crewMassKg + fuelMassKg + shuttleMassKg
 let fuelTempCelcius = -225
-let fuelLevel = 1
-let weatherStatus = 'ready'
+let fuelLevel = 100
+let weatherStatus = 'clear'
 const dash = '------------------------------'
 
 console.log(dash)
@@ -28,3 +28,20 @@ console.log("*status:",weatherStatus)
 console.log(dash)
 console.log("> FUEL DATA")
 console.log(dash)
+console.log('*Fuel temp Celcius:',fuelTempCelcius + 'C')
+console.log('*Fuel level:',fuelLevel + 00 + '%')
+console.log(dash)
+console.log('> MASS DATA')
+console.log(dash)
+console.log('*Crew mass:',crewMassKg,'kg')
+console.log('*Fuel mass:',fuelMassKg,'kg')
+console.log('*Shuttle mass:',shuttleMassKg,'kg')
+console.log('*Total mass:',totalMassKg,'kg')
+
+console.log(dash)
+console.log('> FLIGHT PLAN')
+console.log(dash)
+console.log('*weather:',weatherStatus)
+console.log(dash)
+console.log('>OVERALL STATUS')
+console.log('*Clear for takeoff: YES')
